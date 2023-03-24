@@ -25,6 +25,15 @@ class Summary:
         :return: The `CO2` data per capity per country.
         :rtype: pandas.core.series.Series
         """
+
         return self._data["CO2C"]
 
+    def co2y(self):
+            return self._data["CO2Y"]
+    def ch4y(self):
+            return self._data["CH4Y"]
+    def n2oy(self):
+        return self._data["N2OY"]
+
     print("Bosnia")
+    print("Long Live Ungaro-Czehchia")
