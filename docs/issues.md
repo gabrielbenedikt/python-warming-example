@@ -15,7 +15,7 @@ merging the features into the `main` branch:
 3. [ ] **Extract `CO2Y`, `CH4Y` and `N20Y` from summary database** (easy): Similar to issues **1** and **2** create
     methods which extract the values for a year.
 
-4. [ ] **Implement Europe map** (medium): Based on the `warming.plot.maps.World` create the new derived class
+4. [x] **Implement Europe map** (medium): Based on the `warming.plot.maps.World` create the new derived class
     `Europe`, which has the same methods, except that it only shows the European countries.
 
 5. [ ] **Fix dataset** (medium): As you can see, when running the main file, some countries are not shown at all
