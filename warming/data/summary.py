@@ -26,3 +26,7 @@ class Summary:
         :rtype: pandas.core.series.Series
         """
         return self._data["CO2C"]
+
+    def jk(self):
+        print("Damn, that's complicated...")
+        return
