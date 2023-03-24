@@ -26,3 +26,5 @@ class Summary:
         :rtype: pandas.core.series.Series
         """
         return self._data["CO2C"]
+
+    print("Bosnia")
