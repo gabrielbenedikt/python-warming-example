@@ -30,3 +30,6 @@ class Summary:
     def jk(self):
         print("Damn, that's complicated...")
         return
+
+    def one_more(self):
+        return 2
