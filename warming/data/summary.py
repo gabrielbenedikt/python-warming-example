@@ -27,6 +27,14 @@ class Summary:
         """
         return self._data["CO2C"]
 
+    def n2o(self):
+        """Returns the data of `N2O` values per capity per country.
+
+        :return: The `N2O` data per capity per country.
+        :rtype: pandas.core.series.Series
+        """
+        return self._data["N2OC"]
+
     def jk(self):
         print("Damn, that's complicated...")
         return
